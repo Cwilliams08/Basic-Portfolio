@@ -27,7 +27,13 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    /*TODO: MAKE BORDERS WORK*/
+    border-right: 1px solid #bbb;
 }
+
+.navitems:last-child {
+    border-right: none;
+  }
 
 .navitems:hover:not(.active) {
     background-color: #111;
