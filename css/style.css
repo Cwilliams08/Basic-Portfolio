@@ -2,6 +2,8 @@
     float: left;
     color: white;
     background-color: #4aaaa5;
+    padding: 20px;
+    border-radius: 4px; /* Rounded borders */
 }
 
 .navbar {
@@ -9,11 +11,14 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    /*fixed navigation bar*/
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navlist {
-    float: left;
+    float: right;
 }
 
 .navitems {
@@ -24,12 +29,23 @@
     text-decoration: none;
 }
 
+.navitems:hover:not(.active) {
+    background-color: #111;
+  }
+
+.navitems:active {
+    /*TODO: MAKE ACTIVE WORK FOR PAGE CURRENTLY ON*/
+    background-color: #4aaaa5;
+}
+
 .navitems:hover {
     background-color: #111;
 }
 
 body {
     background-image: url("../images/prism/prism.png");
+    background-size: contain;
+    width: 960px;
   }
 
   .IndexPhoto {
