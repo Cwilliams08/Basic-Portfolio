@@ -8,6 +8,28 @@ body {
       border-radius: 50%
   }
 
+  .container {
+    position: relative;
+    width:100px;
+    height:100px
+  }
+
+  .containerimg {
+    width:100px;
+    height:100px
+  }
+
+  .centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    /*TODO FILL BACKGROUND TO IMAGE WIDTH*/
+  }
+
 
 
 
