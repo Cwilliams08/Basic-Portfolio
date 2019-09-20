@@ -106,3 +106,7 @@ input[type=text], select, textarea {
     background-color: #ffffff;
     padding: 20px;
   }
+
+  .footer {
+    border-top: 8px solid #4aaaa5;
+  }
