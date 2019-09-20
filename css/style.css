@@ -2,7 +2,7 @@
     float: left;
     color: white;
     background-color: #4aaaa5;
-    padding: 20px;
+    padding: 16px;
     border-radius: 4px; /* Rounded borders */
 }
 
@@ -52,6 +52,14 @@ body {
     background-image: url("../images/prism/prism.png");
     background-size: contain;
     width: 960px;
+  }
+
+  .details {
+    margin: 20px 10px 20px 10px;
+  }
+
+  .aboutme {
+      margin-top: 80px;
   }
 
   .IndexPhoto {
