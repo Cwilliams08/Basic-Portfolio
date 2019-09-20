@@ -11,13 +11,18 @@ body {
   .containergallery {
     position: relative;
     width:100px;
-    height:100px
+    height:100px;
+    background-color: #ffffff;
+    border-radius: 4px; /* Rounded borders */
+    padding: 20px;
+    float: left;
   }
 
   .containerimg {
     width:100px;
-    height:100px
+    height:100px;
   }
+
 
   .centered {
     position: absolute;
@@ -27,6 +32,7 @@ body {
     font-size: 10px;
     background-color: #4aaaa5;
     color: #ffffff;
+    border-radius: 4px; /* Rounded borders */
     /*TODO FILL BACKGROUND TO IMAGE WIDTH*/
   }
 
