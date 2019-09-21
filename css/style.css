@@ -81,6 +81,10 @@ body {
       padding: 20px;
   }
 
+  .container {
+      margin: 80px;
+  }
+
   .containergallery {
     position: relative;
     width:100px;
@@ -185,4 +189,12 @@ input[type=text], select, textarea {
 
   .LinkedInLink:hover {
     background-color: #111;
+  }
+
+  p {
+      padding: 3px;
+  }
+
+  .ContactFooter {
+      margin:0px;
   }
