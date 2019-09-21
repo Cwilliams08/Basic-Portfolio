@@ -14,7 +14,10 @@
     /*fixed navigation bar*/
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 960px;
+    background-color: #1a1717;
+    border-radius: 4px; /* Rounded borders */
+    z-index: 99999;
 }
 
 .navlist {
@@ -23,7 +26,7 @@
 
 .navitems {
     display: block;
-    color: white;
+    color: #4aaaa5;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -52,20 +55,30 @@ body {
     background-image: url("../images/prism/prism.png");
     background-size: contain;
     width: 960px;
+    margin: auto;
   }
 
   .details {
     margin: 20px 10px 20px 10px;
+    background: rgba(199,199,199, 0.3);
+    border:solid 3px black;
+    opacity: .7;
+    border-radius: 4px; /* Rounded borders */
   }
 
   .aboutme {
       margin-top: 80px;
+      margin-left: 40px;
+      margin-bottom: 0px;
+      color: #4aaaa5;
   }
 
   .IndexPhoto {
       height: 200px;
       width: 150px;
-      border-radius: 50%
+      border-radius: 50%;
+      float: left;
+      padding: 20px;
   }
 
   .containergallery {
