@@ -61,7 +61,7 @@ body {
   .details {
     margin: 20px 10px 140px 10px;
     background: rgba(199,199,199, 0.3);
-    border:solid 3px black;
+    border:solid 1px black;
     opacity: .7;
     border-radius: 4px; /* Rounded borders */
   }
@@ -117,6 +117,8 @@ body {
 
 .HeaderForTable {
     color: #4aaaa5;
+    margin-left: 20px;
+    margin-right:20px;
 }
 
 input[type=text], select, textarea {
@@ -151,6 +153,7 @@ input[type=text], select, textarea {
     padding: 20px;
     background: rgba(255,255,255, 0.9);
     margin: 80px;
+    border: 1px black solid;
   }
 
   .footer {
@@ -208,4 +211,6 @@ input[type=text], select, textarea {
       height:500px;
       width:960px;
       background: rgba(255,255,255, 0.3);
+      margin-top: 80px;
+      margin-bottom: 80px;
   }
