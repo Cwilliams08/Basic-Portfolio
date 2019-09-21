@@ -30,7 +30,6 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    /*TODO: MAKE BORDERS WORK*/
     border-right: 1px solid #bbb;
 }
 
@@ -76,6 +75,7 @@ body {
   .IndexPhoto {
       height: 200px;
       width: 150px;
+      /*oval image instead of sharp edges*/
       border-radius: 50%;
       float: left;
       padding: 20px;
