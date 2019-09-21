@@ -59,7 +59,7 @@ body {
   }
 
   .details {
-    margin: 20px 10px 20px 10px;
+    margin: 20px 10px 140px 10px;
     background: rgba(199,199,199, 0.3);
     border:solid 3px black;
     opacity: .7;
@@ -109,11 +109,6 @@ body {
     /*TODO FILL BACKGROUND TO IMAGE WIDTH*/
   }
 
-
-
-
-
-
 .HeaderForTable {
     color: #4aaaa5;
 }
@@ -151,5 +146,43 @@ input[type=text], select, textarea {
   }
 
   .footer {
-    border-top: 8px solid #4aaaa5;
+    list-style: none;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(26,23,23, 0.3);
+    color: #4aaaa5;
+    text-align: center;
+  }
+
+  .links {
+    list-style: none;
+    width: 100%;
+    padding-left: 0px;
+    
+  }
+
+  .GitHubLink {
+      text-align:center;
+      display: block;
+      color: #4aaaa5;
+      text-decoration: none;
+      padding-bottom: 5px;
+  }
+
+  .GitHubLink:hover {
+    background-color: #111;
+  }
+
+  .LinkedInLink {
+    text-align:center;
+    display: block;
+    color: #4aaaa5;
+    text-decoration: none;
+  }
+
+  .LinkedInLink:hover {
+    background-color: #111;
   }
